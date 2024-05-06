@@ -1,4 +1,4 @@
-# Google Data Analytics Capstone Case Study: Cyclistic Tripdata 
+# Google Data Analytics Capstone Case Study: Cyclistic bike-sharing Analysis
 Course Link : [Google Data Analytics](https://www.coursera.org/google-certificates/data-analytics-certificate#courses)
 
 ## Introduction
@@ -25,7 +25,7 @@ The Company Marketing director believes that, the <i>" Company's future growth i
 #### About Company 
 A bike-sharing company, Cyclistic features more than 5800 bicycles and 600 dock stations. The company itself sets out to have various bike-riding options reclining bikes, hand tricycles, and cargo bikes. The majority of riders opt for traditional bikes; about 8% use the assistive options. Users are more likely to ride for leisure, but about 30% use bikes to commute to work each day. <br>
  
-Until now, Company market relied on building general awareness and appealing to broad consumer segments. They do offer flexible price offerings:<br><br> 
+Until now, the Company market relied on building general awareness and appealing to broad consumer segments. They do offer flexible price offerings:<br><br> 
 • Single-ride Passes <br> 
 • Full-day passes <br> 
 • Annual Membership <br> 
@@ -45,7 +45,20 @@ This phase includes, What type of question we are trying to solve. and how one's
 ### Analysis Question
 1. How do annual members and casual riders use Cyclistic bikes differently?
 2. Why Would casual riders buy cyclistic annual memberships?
-3. How can cyclsitic use digial media to influence casual riders to become annual members?
+3. How can cyclsitic use digital media to influence casual riders to become annual members?
 <br>
 
-Moreno, Director of Marketing assigned me with the First Questions i.e., How do annual members and casual riders use Cyclistic bikes differently?
+Moreno, Director of Marketing assigned me the First Questions i.e., How do annual members and casual riders use Cyclistic bikes differently?
+
+### Key Tasks:
+ <li>
+  Identify the business Task. </li>
+ <li>
+  Consider key Stakeholders  </li> 
+
+### Deliverables
+<li>
+ A Clear Statement of the business task.
+</li>
+
+## Prepare 
