@@ -37,8 +37,8 @@ Customers who purchase single-ride or Full-day passes are known as Casual Riders
 
 ## Ask 
 ### Business Task
-Devise marketing strategies to convert casual riders to members.
-<br>
+Devise marketing strategies to convert casual riders to members. <br>
+
 This phase includes, What type of question we are trying to solve. and how one's insights drive business decisions.
 <br>
 
@@ -73,10 +73,15 @@ The datasets are organized in the format YYYYMM-divvy-tripdata. Each file includ
 <br> 
 There were no potential bias or credibility as data was reputed by the organization itself, which skewed towards positive results. The reputed data is well organized and cleaned before further processing and no sampling is considered while processing. 
 <br> 
-This Reputed data is <b>[ROCCC!](https://medium.com/@varunsrivatsa27/the-importance-of-identifying-good-data-sources-which-rocccs-e6c8d7350339)</b> which stands for data is 
+This Reputed data is <b>[ROCCC](https://medium.com/@varunsrivatsa27/the-importance-of-identifying-good-data-sources-which-rocccs-e6c8d7350339)</b> which stands for data is 
 <li>
  Reliable, </li> <li>
  Original, </li> <li>
  Comprehensive, </li> <li>
  Current, and </li> <li>
  Cited. </li>
+
+### Deliverables
+<li> A Description of all data sources used. </li>
+
+ ## Process
