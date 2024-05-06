@@ -58,7 +58,25 @@ Moreno, Director of Marketing assigned me the First Questions i.e., How do annua
 
 ### Deliverables
 <li>
- A Clear Statement of the business task.
+ A Clear Statement of the Business Task.
 </li>
 
 ## Prepare 
+This phase includes Downloading & Organizing datasets. <br>
+
+### Data Source
+Cyclistic historical trip data is [located here](https://divvy-tripdata.s3.amazonaws.com/index.html). This dataset is made under [Licence](https://divvybikes.com/data-license-agreement) Motivate International Inc. <br>
+This public data helps in understanding how different customer types use the bike-sharing system.  But note that data-privacy issues prohibit from using riders’ personally identifiable information. This means that we won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
+
+### Data Organization
+The datasets are organized in the format YYYYMM-divvy-tripdata. Each file includes the information such as, ride_id,	rideable_type,	started_at,	ended_at,	start_station_name,	start_station_id,	end_station_name,	end_station_id,	start_lat,	start_lng,	end_lat,	end_lng,	member_casual. <br>
+<br> 
+There were no potential bias or credibility as data was reputed by the organization itself, which skewed towards positive results. The reputed data is well organized and cleaned before further processing and no sampling is considered while processing. 
+<br> 
+This Reputed data is <b>[ROCCC!](https://medium.com/@varunsrivatsa27/the-importance-of-identifying-good-data-sources-which-rocccs-e6c8d7350339)</b> which stands for data is 
+<li>
+ Reliable, </li> <li>
+ Original, </li> <li>
+ Comprehensive, </li> <li>
+ Current, and </li> <li>
+ Cited. </li>
