@@ -97,17 +97,17 @@ This Reputed data is <b>[ROCCC](https://medium.com/@varunsrivatsa27/the-importan
  ## Process
  The individual CSV files will be combined into 1 to make it easier to manipulate and analyse. The combined file will be cleaned and additional columns will be added.
 
-Guiding questions
-<b> What tools are you choosing and why? <b>
-I am using R as the dataset is to large for spreadsheets and R will allow indepth analysis and manipulation
+Guiding questions <br>
+<b> What tools are you choosing and why? <b> <br>
+I am using R as the dataset is to large for spreadsheets and R will allow indepth analysis and manipulation <br>
 
-<b> Have you ensured your data’s integrity? <b>
-I examined the columns after any changes and determined that the datatypes were consisitent after manipulation
+<b> Have you ensured your data’s integrity? <b> <br> 
+I examined the columns after any changes and determined that the datatypes were consisitent after manipulation <br>
 
-<b> What steps have you taken to ensure that your data is clean? <b> 
-The NA's and duplicates were removed, the time and dates were formatted.
+<b> What steps have you taken to ensure that your data is clean? <b> <br>
+The NA's and duplicates were removed, the time and dates were formatted. <br>
 
-<b> How can you verify that your data is clean and ready to analyze? <b>
+<b> How can you verify that your data is clean and ready to analyze? <b> <br>
 The steps shown in this section of the notebook show all cleaning steps and a summary of the data to ensure it is ready.
 
 <b> Have you documented your cleaning process so you can review and share those results? <b>
