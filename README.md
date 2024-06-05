@@ -70,6 +70,14 @@ Cyclistic historical trip data is [located here](https://divvy-tripdata.s3.amazo
 
 This public data helps in understanding how different customer types use the bike-sharing system.  But note that data-privacy issues prohibit from using riders’ personally identifiable information. This means that we won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
 
+The data is open source and provided by the company it is however covered by their license (provided above). The data also does not include any personal information regarding the riders to protect their privacy.
+
+The data was examined and all of them are consistent regarding the columns (amount and names) and the data types are consistent throughout.
+
+The data will allow us to examine annual members and casual riders to determine if there are any key characteristics regarding the riders, bike usage, and needs.
+
+More information regarding the units of measure, stations and riders would add to the data’s value.
+
 ### Data Organization
 The datasets are organized in the format YYYYMM-divvy-tripdata. Each file includes the information such as, ride_id,	rideable_type,	started_at,	ended_at,	start_station_name,	start_station_id,	end_station_name,	end_station_id,	start_lat,	start_lng,	end_lat,	end_lng,	member_casual. <br>
 <br> 
