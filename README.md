@@ -167,6 +167,36 @@ It describes the no.of annual members and casual riders using the bicycle.
 ![image](https://github.com/sreedatta-v/Cyclistic-Case-Study/assets/111418043/b317c989-4353-493a-82b3-7700f1fe8faa)
 
 
+4. Determine the mode for the day of the week
+
+I wanted to examine the day of the week column further. I wanted tio determine which day had the most rides and average ride length for each rider type. There was an issue as the first time the code ran the results were grouped by rider type but the days of the week were out of order which required the ordered code.
+
+5. Determining the most popular months during 2023.
+
+
+From the analysis we can determine that:
+
+There were more members(3659242) than casual riders(2052829) in the year 2023.
+
+Casual riders(3424.217 mins) had a higher average ride length than members(1359.659 mins).
+
+Casual riders had the longest ride time being 12578400 mins or 2608 hours.
+
+The most popular day for bike sharing was Friday.
+
+The most popular day for casual riders was Friday with an average ride length of 3482.757 mins.
+
+The most popular day for members was Friday with an average ride length of 1411.728 mins
+
+The most popular month was August with 770333 rides with an average ride duration of 2541.369 mins.
+
+The least popular month was Jan with 190170 rides with an average ride duration of 1208.557 mins.
+
+The most popular start station overall was "Streeter Dr & Grand Ave".
+
+The most popular start station for members was "Clinton St & Washington Blvd" with 26207 trips starting from here.
+
+The most popular start station for casual riders was "Streeter Dr & Grand Ave" with 45768 trips starting from here.
 
 <hr> 
 
