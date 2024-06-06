@@ -171,9 +171,7 @@ It describes the no.of annual members and casual riders using the bicycle.
 
 I wanted to examine the day of the week column further. I wanted tio determine which day had the most rides and average ride length for each rider type. There was an issue as the first time the code ran the results were grouped by rider type but the days of the week were out of order which required the ordered code.
 
-5. Determining the most popular months during 2023.
-
-
+### Summary of Analysis: 
 From the analysis we can determine that:
 
 There were more members(3659242) than casual riders(2052829) in the year 2023.
