@@ -199,50 +199,72 @@ The most popular start station for casual riders was "Streeter Dr & Grand Ave" w
 
 ## Share 
 ### Guiding questions
-<b>  Were you able to answer the question of how annual members and casual riders use Cyclistic bikes differently? <br> </b>
+1. Were you able to answer the question of how annual members and casual riders use Cyclistic bikes differently? <br>
 <i>Yes, we were able to determine a number of differences between casual riders and annual members.</i> 
 
+2. What story does your data tell? <br>
+<i> The data tells us that there are a large number of casual riders who have a higher average of ride duration. This is a potential target for the digital marketing campaign. </i>
 
-● What story does your data tell?
+3. How do your findings relate to your original question? <br>
+<i>The data answered all the original questions. </i>
 
-The data tells us that there are a large number of casual riders who have a higher average of ride duration. This is a potential target for the digital marketing campaign.
+4. How do annual members and casual riders use Cyclistic bikes differently? <br>
+<i> We determined a variety of differences between the two groups. </i>
 
+5. Why would casual riders buy Cyclistic annual memberships? <br>
+<i> Casual members would buy the annual membership as they on average use the bikes for longer than members and the longest individual ride was also by a casual member. </i>
 
-● How do your findings relate to your original question?
+6. How can Cyclistic use digital media to influence casual riders to become members? <br>
+<i>A digital media campaign with a focus on the benefits of a membership aimed at the casual rider who are using the bikes for long durations. </i>
 
-The data answered all the original questions.
+7. Who is your audience? What is the best way to communicate with them? <br>
+<i>My audience is the key stakeholders identified earlier. They are Lily Moreno and the Cyclistic marketing analytics team. </i>
 
+8. Can data visualization help you share your findings? <br>
+<i> Data visualisation provided a visual comparison of the differences between the two groups. This allows the stakeholders to quickly and easily understand the analysis. </i>
 
-How do annual members and casual riders use Cyclistic bikes differently?
-
-We determined a variety of differences between the two groups.
-
-
-Why would casual riders buy Cyclistic annual memberships?
-
-Casual members would buy the annual membership as they on average use the bikes for longer than members and the longest individual ride was also by a casual member.
-
-
-How can Cyclistic use digital media to influence casual riders to become members?
-
-A digital media campaign with a focus on the benefits of a membership aimed at the casual rider who are using the bikes for long durations.
-
-
-● Who is your audience? What is the best way to communicate with them?
-
-My audience is the key stakeholders identified earlier. They are Lily Moreno and the Cyclistic marketing analytics team.
+9. Is your presentation accessible to your audience? <br>
+<i> The presentation is available upon request but is not freely available. This notebook with the analysis is however accessible. </i>
 
 
-● Can data visualization help you share your findings?
+## Act 
+### Guiding questions
+1. What is your final conclusion based on your analysis? 
 
-Data visualisation provided a visual comparison of the differences between the two groups. This allows the stakeholders to quickly and easily understand the analysis.
+There is an opportunity for Cyclistic to turn casual riders into annual members. There are casual riders who are using the bike sharing more so than the annual members and with a targeted digital marketing campaign they can convert them to members.
 
+2. How could your team and business apply your insights?
 
-● Is your presentation accessible to your audience?
+A target digital marketing campaign aimed at long use casual riders. The campaign would focus on the benefits of being a member over a casual rider for longer rides.
 
-The presentation is available upon request but is not freely available. This notebook with the analysis is however accessible.
+3. What next steps would you or your stakeholders take based on your findings?
+
+I would recommend a more in-depth analysis on the long use casual riders however there is enough data to support a digital marketing campaign.
+
+4. Is there additional data you could use to expand on your findings?
+
+Additional data that would expand the findings would include: demographic data, climate data, financial data, and marketing campaign history with there ROI.
+
 
 <hr> 
+
+## Visualization of the rider types
+
+![image](https://github.com/sreedatta-v/Cyclistic-Case-Study/assets/111418043/dfccc560-bb8f-42c8-8d6b-457d7b462add)
+
+## Visualization of the rider types ride duration
+
+![image](https://github.com/sreedatta-v/Cyclistic-Case-Study/assets/111418043/d40c3fdf-a923-4f26-bd06-e6efcacde8ae)
+
+## Visualization of the usage by members and casual riders by the weekday
+
+![image](https://github.com/sreedatta-v/Cyclistic-Case-Study/assets/111418043/33c88160-d5eb-4ead-ba9f-f0f02ebaa6a8)
+
+## Visualization of the usage by members and casual riders by the month
+
+![image](https://github.com/sreedatta-v/Cyclistic-Case-Study/assets/111418043/4a17d42a-6749-4e4d-b482-d248d81724bc)
+
+## Visualization of the number of trips by members and casual riders by the month
 
 ![image](https://github.com/sreedatta-v/Cyclistic-Case-Study/assets/111418043/8680fa07-f3bd-498d-88e6-055092453989)
 
