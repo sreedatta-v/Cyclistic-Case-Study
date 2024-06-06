@@ -131,16 +131,44 @@ Downlaodable R Script File is attached below :
 [ Downloadable Script File ](https://drive.google.com/file/d/1WI6ukSW7mlZCJCQLOhZ5ep_wgqK54GK2/view?usp=sharing)
 
 ## Analysis 
-Importing the CSV files into R Studio. 
+Importing the CSV files into R Studio. Below code describes how it is imported.
 
 ```R
 TripDataJan <- read.csv("C:~\\23-Cyclustic-bike-sharing\\202301-divvy-tripdata\\202301-divvy-tripdata.csv")
 ```
 
-It describes how data is imported into R studio. Similarily it was repeated for rest of the months. 
+It describes how data is imported into R studio. Similarily it is repeated for rest of the months. 
+
+Examining the datasets
+```R
+str(TripDataJan)
+```
+It printout the Datatype assigned with each column, which further used for analzing in deeper. 
+
+Later, all datasets are combined into single file named as <code> tripdata2023 </code>, then examined the datatypes of the combined dataframe to ensure the consistence exists before and after the combining the data.
+
+Next Step, Data Cleaning. It allows to make sure there is no duplicates present in data, along with null values.<br>
+
+Here, <b> The time format is currently yyyy-mm-dd hh:mm:ss to do a deeper analysis it is best to format into indiviudal columns and add a day of the week column. </b> 
+
+### Data Manipulation
+
+1. Creating a column to determine the ride length and filtering out trips with a ride length less than 0.
+
+2. Determining the amount of members vs casual riders: 
+
+![image](https://github.com/sreedatta-v/Cyclistic-Case-Study/assets/111418043/44caf93e-734a-477d-8953-bdcbb874ccc3)
+
+It describes the no.of annual members and casual riders using the bicycle. 
+
+
+3. Then performing Statistical analysis to analyse average_ride_length, standard_deviation, median_ride_length, min_ride_length, max_ride_length
 
 ![image](https://github.com/sreedatta-v/Cyclistic-Case-Study/assets/111418043/b317c989-4353-493a-82b3-7700f1fe8faa)
 
+
+
+<hr> 
 
 ![image](https://github.com/sreedatta-v/Cyclistic-Case-Study/assets/111418043/8680fa07-f3bd-498d-88e6-055092453989)
 
