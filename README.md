@@ -112,7 +112,34 @@ The NA's and duplicates were removed, the time and dates were formatted. <br>
 The steps shown in this section of the notebook show all cleaning steps and a summary of the data to ensure it is ready.
 
 <b> 5. Have you documented your cleaning process so you can review and share those results? </b>
-The cleaning process has been documented throughout
+The cleaning process has been documented throughout <br>
+
+## Code
+
+### Packages 
+
+```R
+library(tidyverse) 
+library(janitor)
+library(lubricate)
+library(ggplot2)
+```
+
+These are essential libraries used in this case study.
+
+Downlaodable R Script File is attached below : 
+[ Downloadable Script File ](https://drive.google.com/file/d/1WI6ukSW7mlZCJCQLOhZ5ep_wgqK54GK2/view?usp=sharing)
+
+## Analysis 
+Importing the CSV files into R Studio. 
+
+```R
+TripDataJan <- read.csv("C:~\\23-Cyclustic-bike-sharing\\202301-divvy-tripdata\\202301-divvy-tripdata.csv")
+```
+
+It describes how data is imported into R studio. Similarily it was repeated for rest of the months. 
+
+![image](https://github.com/sreedatta-v/Cyclistic-Case-Study/assets/111418043/b317c989-4353-493a-82b3-7700f1fe8faa)
 
 
 ![image](https://github.com/sreedatta-v/Cyclistic-Case-Study/assets/111418043/8680fa07-f3bd-498d-88e6-055092453989)
