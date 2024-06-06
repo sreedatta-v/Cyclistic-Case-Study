@@ -14,33 +14,40 @@ In order to follow the Business task, I will do the following analysis steps to 
 
 Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) (accessed on: May 2nd, 24')
 
-SQL Queries: 
+[R Script File](https://drive.google.com/file/d/1VkDA_3bqd7X56I7YmhHjpNc4AGgNshmw/view?usp=sharing) 
 
-Visualization: 
+## Company Scenario 
 
-## Company Scenario
-
-The Company Marketing director believes that, the <i>" Company's future growth is dependent on maximizing the number of annual memberships "</i>
+The Company Marketing director believes that, the <i>" Company's future growth is dependent on maximizing the number of annual memberships. "</i>
 
 #### About Company 
 A bike-sharing company, Cyclistic features more than 5800 bicycles and 600 dock stations. The company itself sets out to have various bike-riding options reclining bikes, hand tricycles, and cargo bikes. The majority of riders opt for traditional bikes; about 8% use the assistive options. Users are more likely to ride for leisure, but about 30% use bikes to commute to work each day. <br>
  
 Until now, the Company market relied on building general awareness and appealing to broad consumer segments. They do offer flexible price offerings:<br><br> 
-• Single-ride Passes <br> 
-• Full-day passes <br> 
-• Annual Membership <br> 
+• Single-ride Passes. <br> 
+• Full-day passes. <br> 
+• Annual Membership. <br> 
 
 Customers who purchase single-ride or Full-day passes are known as Casual Riders & Customers who purchase annual membership are known as Cyclistic Members. The company finalized that Annual Membership users are much more profitable than casual riders. 
 
 ### Goal
-<i>Design marketing strategies aimed at converting casual riders into annual Members </i>
+<i>Design marketing strategies aimed at converting casual riders into annual Members. </i>
 
 ## Ask 
 ### Business Task
-Devise marketing strategies to convert casual riders to members. <br>
+Devise marketing strategies to convert casual riders to members. <br> 
 
-This phase includes, What type of question we are trying to solve. and how one's insights drive business decisions.
+This phase includes, What type of question we are trying to solve. and how one's insights drive business decisions. 
 <br>
+
+### Guiding Questions:
+1. What is the problem you are trying to solve?
+
+The main objective is to determine profiles for the annual members and the casual riders and use the information to create a marketing strategy to assist in turning casual riders into annual members.
+
+2. How can your insights drive business decisions?
+
+The insights will aid the marketing team in increasing the amount of annual members.
 
 ### Analysis Question
 1. How do annual members and casual riders use Cyclistic bikes differently?
@@ -52,52 +59,80 @@ Moreno, Director of Marketing assigned me the First Questions i.e., How do annua
 
 ### Key Tasks:
  <li>
-  Identify the business Task. </li>
+  Identify the business Task. ~ completed </li>
  <li>
-  Consider key Stakeholders  </li> 
+  Consider key Stakeholders. ~ completed  </li> 
 
 ### Deliverables
 <li>
  A Clear Statement of the Business Task.
-</li>
+</li> <br> 
+
+Determine the differences between annual members and casual riders and which marketing strategy to pursue to increase annual members.
 
 ## Prepare 
 This phase includes Downloading & Organizing datasets. <br>
 
 ### Data Source
-Cyclistic historical trip data is [located here](https://divvy-tripdata.s3.amazonaws.com/index.html). This dataset is made under [Licence](https://divvybikes.com/data-license-agreement) Motivate International Inc. <br>
-
 
 This public data helps in understanding how different customer types use the bike-sharing system.  But note that data-privacy issues prohibit from using riders’ personally identifiable information. This means that we won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
 
-The data is open source and provided by the company it is however covered by their license (provided above). The data also does not include any personal information regarding the riders to protect their privacy.
+### Guiding questions
+1. Where is your data located?
 
-The data was examined and all of them are consistent regarding the columns (amount and names) and the data types are consistent throughout.
+Cyclistic historical trip data is [located here](https://divvy-tripdata.s3.amazonaws.com/index.html). This dataset is made under [Licence](https://divvybikes.com/data-license-agreement) Motivate International Inc. <br>
 
-The data will allow us to examine annual members and casual riders to determine if there are any key characteristics regarding the riders, bike usage, and needs.
+2. How is the data organized?
 
-More information regarding the units of measure, stations and riders would add to the data’s value.
-
-### Data Organization
 The datasets are organized in the format YYYYMM-divvy-tripdata. Each file includes the information such as, ride_id,	rideable_type,	started_at,	ended_at,	start_station_name,	start_station_id,	end_station_name,	end_station_id,	start_lat,	start_lng,	end_lat,	end_lng,	member_casual. <br>
+
+3. Are there issues with bias or credibility in this data? Does your data ROCCC.
+
 <br> 
 There were no potential bias or credibility as data was reputed by the organization itself, which skewed towards positive results. The reputed data is well organized and cleaned before further processing and no sampling is considered while processing. 
 <br> 
+   
 This Reputed data is <b>[ROCCC](https://medium.com/@varunsrivatsa27/the-importance-of-identifying-good-data-sources-which-rocccs-e6c8d7350339)</b> which stands for data is 
 <li>
  Reliable, </li> <li>
  Original, </li> <li>
  Comprehensive, </li> <li>
  Current, and </li> <li>
- Cited. </li>
+ Cited. </li> <br>
+
+4. How are you addressing licensing, privacy, security, and accessibility?
+
+The data is open source and provided by the company it is however covered by their license (provided above). The data also does not include any personal information regarding the riders to protect their privacy.
+
+5. How did you verify the data’s integrity?
+
+The data was examined and all of them are consistent regarding the columns (amount and names) and the data types are consistent throughout.
+
+6. How does it help you answer your question?
+
+The data will allow us to examine annual members and casual riders to determine if there are any key characteristics regarding the riders, bike usage, and needs.
+
+7. Are there any problems with the data?
+
+More information regarding the units of measure, stations and riders would add to the data’s value. 
+
+### Key tasks:
+1. Download data and store it appropriately - completed
+
+2. Identify how it’s organised - completed
+
+3. Sort and filter the data. - completed
+
+4. Determine the credibility of the data. - completed
 
 ### Deliverables
-<li> A Description of all data sources used. </li>
+<li> A Description of all data sources used. </li> <br>
+The data source consists of 12 CSV files. There is one file for the first quarter thereafter each month starting with April is an individual file. The period starts at January 2023 and runs until December 2023.
 
  ## Process
  The individual CSV files will be combined into 1 to make it easier to manipulate and analyse. The combined file will be cleaned and additional columns will be added.
 
-Guiding questions <br>
+### Guiding questions <br>
 
 <b> 1. What tools are you choosing and why? </b> <br>
 I am using R as the dataset is to large for spreadsheets and R will allow indepth analysis and manipulation <br>
@@ -113,6 +148,17 @@ The steps shown in this section of the notebook show all cleaning steps and a su
 
 <b> 5. Have you documented your cleaning process so you can review and share those results? </b>
 The cleaning process has been documented throughout <br>
+
+### Key tasks <br>
+
+Check the data for errors. - completed
+
+Choose your tools. - completed
+
+Transform the data so you can work with it effectively. - completed
+
+Document the cleaning process. - completed
+
 
 ## Code
 
