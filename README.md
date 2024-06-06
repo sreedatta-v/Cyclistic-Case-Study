@@ -196,6 +196,52 @@ The most popular start station for members was "Clinton St & Washington Blvd" wi
 
 The most popular start station for casual riders was "Streeter Dr & Grand Ave" with 45768 trips starting from here.
 
+
+## Share 
+### Guiding questions
+<b>  Were you able to answer the question of how annual members and casual riders use Cyclistic bikes differently? <br> </b>
+<i>Yes, we were able to determine a number of differences between casual riders and annual members.</i> 
+
+
+● What story does your data tell?
+
+The data tells us that there are a large number of casual riders who have a higher average of ride duration. This is a potential target for the digital marketing campaign.
+
+
+● How do your findings relate to your original question?
+
+The data answered all the original questions.
+
+
+How do annual members and casual riders use Cyclistic bikes differently?
+
+We determined a variety of differences between the two groups.
+
+
+Why would casual riders buy Cyclistic annual memberships?
+
+Casual members would buy the annual membership as they on average use the bikes for longer than members and the longest individual ride was also by a casual member.
+
+
+How can Cyclistic use digital media to influence casual riders to become members?
+
+A digital media campaign with a focus on the benefits of a membership aimed at the casual rider who are using the bikes for long durations.
+
+
+● Who is your audience? What is the best way to communicate with them?
+
+My audience is the key stakeholders identified earlier. They are Lily Moreno and the Cyclistic marketing analytics team.
+
+
+● Can data visualization help you share your findings?
+
+Data visualisation provided a visual comparison of the differences between the two groups. This allows the stakeholders to quickly and easily understand the analysis.
+
+
+● Is your presentation accessible to your audience?
+
+The presentation is available upon request but is not freely available. This notebook with the analysis is however accessible.
+
 <hr> 
 
 ![image](https://github.com/sreedatta-v/Cyclistic-Case-Study/assets/111418043/8680fa07-f3bd-498d-88e6-055092453989)
