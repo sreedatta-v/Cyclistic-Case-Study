@@ -114,3 +114,7 @@ The steps shown in this section of the notebook show all cleaning steps and a su
 <b> 5. Have you documented your cleaning process so you can review and share those results? </b>
 The cleaning process has been documented throughout
 
+
+![image](https://github.com/sreedatta-v/Cyclistic-Case-Study/assets/111418043/8680fa07-f3bd-498d-88e6-055092453989)
+
+
