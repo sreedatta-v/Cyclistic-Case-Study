@@ -114,12 +114,12 @@ The data will allow us to examine annual members and casual riders to determine 
 
 7. Are there any problems with the data?
 
-More information regarding the units of measure, stations and riders would add to the data’s value. 
+More information regarding the units of measure, stations, and riders would add to the data’s value. 
 
 ### Key tasks:
 1. Download data and store it appropriately - completed
 
-2. Identify how it’s organised - completed
+2. Identify how it’s organized - completed
 
 3. Sort and filter the data. - completed
 
@@ -130,18 +130,18 @@ More information regarding the units of measure, stations and riders would add t
 The data source consists of 12 CSV files. There is one file for the first quarter thereafter each month starting with April is an individual file. The period starts at January 2023 and runs until December 2023.
 
  ## Process
- The individual CSV files will be combined into 1 to make it easier to manipulate and analyse. The combined file will be cleaned and additional columns will be added.
+ The individual CSV files will be combined into 1 to make it easier to manipulate and analyze. The combined file will be cleaned and additional columns will be added.
 
 ### Guiding questions <br>
 
 <b> 1. What tools are you choosing and why? </b> <br>
-I am using R as the dataset is to large for spreadsheets and R will allow indepth analysis and manipulation <br>
+I am using R as the dataset is too large for spreadsheets and R will allow in-depth analysis and manipulation <br>
 
 <b> 2. Have you ensured your data’s integrity? </b> <br> 
-I examined the columns after any changes and determined that the datatypes were consisitent after manipulation <br>
+I examined the columns after any changes and determined that the datatypes were consistent after manipulation <br>
 
 <b> 3. What steps have you taken to ensure that your data is clean? </b> <br>
-The NA's and duplicates were removed, the time and dates were formatted. <br>
+The NA's and duplicates were removed, and the time and dates were formatted. <br>
 
 <b> 4. How can you verify that your data is clean and ready to analyze? </b> <br>
 The steps shown in this section of the notebook show all cleaning steps and a summary of the data to ensure it is ready.
@@ -159,66 +159,19 @@ Transform the data so you can work with it effectively. - completed
 
 Document the cleaning process. - completed
 
+## Analysis
+Steps involved in using R 
 
-## Code
+1. Import your data from Datasets-2023
+2. Make columns consistent and merge them into a single dataframe.
+3. Clean up and add data to prepare for analysis.
+4. Conduct descriptive analysis.
+5. Export a summary file for further analysis.
 
-### Packages 
-
-```R
-library(tidyverse) 
-library(janitor)
-library(lubricate)
-library(ggplot2)
-```
-
-These are essential libraries used in this case study.
-
-Downlaodable R Script File is attached below : 
-[ Downloadable Script File ](https://drive.google.com/file/d/1WI6ukSW7mlZCJCQLOhZ5ep_wgqK54GK2/view?usp=sharing)
-
-## Analysis 
-Importing the CSV files into R Studio. Below code describes how it is imported.
-
-```R
-TripDataJan <- read.csv("C:~\\23-Cyclustic-bike-sharing\\202301-divvy-tripdata\\202301-divvy-tripdata.csv")
-```
-
-It describes how data is imported into R studio. Similarily it is repeated for rest of the months. 
-
-Examining the datasets
-```R
-str(TripDataJan)
-```
-It printout the Datatype assigned with each column, which further used for analzing in deeper. 
-
-Later, all datasets are combined into single file named as <code> tripdata2023 </code>, then examined the datatypes of the combined dataframe to ensure the consistence exists before and after the combining the data.
-
-Next Step, Data Cleaning. It allows to make sure there is no duplicates present in data, along with null values.<br>
-
-Here, <b> The time format is currently yyyy-mm-dd hh:mm:ss to do a deeper analysis it is best to format into indiviudal columns and add a day of the week column. </b> 
-
-### Data Manipulation
-
-1. Creating a column to determine the ride length and filtering out trips with a ride length less than 0.
-
-2. Determining the amount of members vs casual riders: 
-
-![image](https://github.com/sreedatta-v/Cyclistic-Case-Study/assets/111418043/44caf93e-734a-477d-8953-bdcbb874ccc3)
-
-It describes the no.of annual members and casual riders using the bicycle. 
-
-
-3. Then performing Statistical analysis to analyse average_ride_length, standard_deviation, median_ride_length, min_ride_length, max_ride_length
-
-![image](https://github.com/sreedatta-v/Cyclistic-Case-Study/assets/111418043/b317c989-4353-493a-82b3-7700f1fe8faa)
-
-
-4. Determine the mode for the day of the week
-
-I wanted to examine the day of the week column further. I wanted tio determine which day had the most rides and average ride length for each rider type. There was an issue as the first time the code ran the results were grouped by rider type but the days of the week were out of order which required the ordered code.
 
 ### Summary of Analysis: 
-From the analysis we can determine that:
+
+```
 
 There were more members(3659242) than casual riders(2052829) in the year 2023.
 
@@ -242,36 +195,42 @@ The most popular start station for members was "Clinton St & Washington Blvd" wi
 
 The most popular start station for casual riders was "Streeter Dr & Grand Ave" with 45768 trips starting from here.
 
+```
 
 ## Share 
 ### Guiding questions
 1. Were you able to answer the question of how annual members and casual riders use Cyclistic bikes differently? <br>
-<i>Yes, we were able to determine a number of differences between casual riders and annual members.</i> 
+Yes, we were able to determine a number of differences between casual riders and annual members.
 
 2. What story does your data tell? <br>
-<i> The data tells us that there are a large number of casual riders who have a higher average of ride duration. This is a potential target for the digital marketing campaign. </i>
+The data tells us that there are a large number of casual riders who have a higher average of ride duration. This is a potential target for the digital marketing campaign.
 
 3. How do your findings relate to your original question? <br>
-<i>The data answered all the original questions. </i>
+The data answered all the original questions.
 
 4. How do annual members and casual riders use Cyclistic bikes differently? <br>
-<i> We determined a variety of differences between the two groups. </i>
+We determined a variety of differences between the two groups.
 
 5. Why would casual riders buy Cyclistic annual memberships? <br>
-<i> Casual members would buy the annual membership as they on average use the bikes for longer than members and the longest individual ride was also by a casual member. </i>
+Casual members would buy the annual membership as they on average use the bikes for longer than members and the longest individual ride was also by a casual member.
 
 6. How can Cyclistic use digital media to influence casual riders to become members? <br>
-<i>A digital media campaign with a focus on the benefits of a membership aimed at the casual rider who are using the bikes for long durations. </i>
+A digital media campaign with a focus on the benefits of a membership aimed at the casual rider who are using the bikes for long durations.
 
 7. Who is your audience? What is the best way to communicate with them? <br>
-<i>My audience is the key stakeholders identified earlier. They are Lily Moreno and the Cyclistic marketing analytics team. </i>
+My audience is the key stakeholders identified earlier. They are Lily Moreno and the Cyclistic marketing analytics team.
 
 8. Can data visualization help you share your findings? <br>
-<i> Data visualisation provided a visual comparison of the differences between the two groups. This allows the stakeholders to quickly and easily understand the analysis. </i>
+Data visualisation provided a visual comparison of the differences between the two groups. This allows the stakeholders to quickly and easily understand the analysis.
 
 9. Is your presentation accessible to your audience? <br>
-<i> The presentation is available upon request but is not freely available. This notebook with the analysis is however accessible. </i>
+The presentation is available upon request but is not freely available. This notebook with the analysis is however accessible.
 
+Key tasks
+● Determine the best way to share your findings. ~ completed
+● Create effective data visualizations. ~ completed
+● Present your findings. ~ completed
+● Ensure your work is accessible. ~ completed
 
 ## Act 
 ### Guiding questions
