@@ -273,4 +273,33 @@ Additional data that would expand the findings would include: demographic data, 
 
 ![image](https://github.com/sreedatta-v/Cyclistic-Case-Study/assets/111418043/8680fa07-f3bd-498d-88e6-055092453989)
 
+## Act
 
+Guiding questions
+1. What is your final conclusion based on your analysis?
+There is an opportunity for Cyclistic to turn casual riders into annual members. There are casual riders who are using the bike sharing more so than the annual members and with a targeted digital marketing campaign they can convert them to members.
+
+2. How could your team and business apply your insights?
+A target digital marketing campaign aimed at long use casual riders. The campaign would focus on the benefits of being a member over a casual rider for longer rides.
+
+3. What next steps would you or your stakeholders take based on your findings?
+I would recommend a more in-depth analysis on the long use casual riders however there is enough data to support a digital marketing campaign.
+
+4. Is there additional data you could use to expand on your findings?
+Additional data that would expand the findings would include: demographic data, climate data, financial data, and marketing campaign history with there ROI.
+
+### Key tasks
+Create your portfolio. - Completed
+
+Add your case study. - Completed
+
+Practice presenting your case study to a friend or family member. - Completed
+
+### Deliverable
+My top three recommendations based on my analysis.
+
+• Educate casual riders on the perks of memberships as a lack of knowledge can be the reason for the long usage by casual riders
+
+• An ad campaign at the popular start stations for casual riders can increase engagement or interest in memberships
+
+• A campaign to increase the usage by members especially in the less popular months could increase the number of trips. This campaign should provide benefits or rewards for continued usage with a focus on the less popular months.
