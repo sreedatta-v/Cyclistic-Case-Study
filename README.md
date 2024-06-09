@@ -276,16 +276,16 @@ Additional data that would expand the findings would include: demographic data, 
 ## Act
 
 Guiding questions
-1. What is your final conclusion based on your analysis?
+1. What is your final conclusion based on your analysis?<br>
 There is an opportunity for Cyclistic to turn casual riders into annual members. There are casual riders who are using the bike sharing more so than the annual members and with a targeted digital marketing campaign they can convert them to members.
 
-2. How could your team and business apply your insights?
+2. How could your team and business apply your insights?<br>
 A target digital marketing campaign aimed at long use casual riders. The campaign would focus on the benefits of being a member over a casual rider for longer rides.
 
-3. What next steps would you or your stakeholders take based on your findings?
+3. What next steps would you or your stakeholders take based on your findings?<br>
 I would recommend a more in-depth analysis on the long use casual riders however there is enough data to support a digital marketing campaign.
 
-4. Is there additional data you could use to expand on your findings?
+4. Is there additional data you could use to expand on your findings?<br>
 Additional data that would expand the findings would include: demographic data, climate data, financial data, and marketing campaign history with there ROI.
 
 ### Key tasks
